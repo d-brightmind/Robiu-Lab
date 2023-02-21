@@ -16,17 +16,16 @@
 </head>
 <body>
     <header id="header" class="fixed-top">
-      <div class="container d-flex align-items-center my-0">
+      <div class="container d-flex align-items-center my-0" id = "home">
   
         <h1 class="logo me-auto"><a href="index.html">Robiu Lab</a></h1>
   
         <nav id="navbar" class="navbar order-last order-lg-0">
           <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto active" href="#home">Home</a></li>
             <li><a class="nav-link scrollto" href="#about">About</a></li>
             <li><a class="nav-link scrollto" href="#services">Services</a></li>
-            <li><a class="nav-link scrollto" href="#why-us">Departments</a></li>
-            <li><a class="nav-link scrollto" href="#doctors">Doctors</a></li>
+            <li><a class="nav-link scrollto" href="#process">Process</a></li>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
@@ -36,39 +35,42 @@
   
       </div>
     </header>
-
-    <div class="h-80">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item drk active">
-            <img src="doctor-performing-medical-research-lab.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block caption">
-              <h2>Clinical Trials</h2>
-              <p>Labcorp Clinical Trials leads the way towards health advancements. Clinical trials are the backbone to developing new treatments that work.</p>
-            </div>
+    <section id="home" class ="home">
+      <div class="h-80">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-item drk">
-            <img src="examining-sample-with-microscope.jpg"  class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block caption">
-              <h2>Pharma Analytical Services</h2>
-              <p>We provides a range of both GMP and non GMP analytical services to the pharmaceutical and nutraceutical industry. We deliver services ranging from a single test to full method development, validation, stability testing.</p>
+          <div class="carousel-inner">
+            <div class="carousel-item drk active">
+              <img src="doctor-performing-medical-research-lab.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block caption">
+                <h2>Clinical Trials</h2>
+                <p>Labcorp Clinical Trials leads the way towards health advancements. Clinical trials are the backbone to developing new treatments that work.</p>
+              </div>
             </div>
-          </div>
-          <div class="carousel-item drk">
-            <img src="doctor-performing-medical-research-lab.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block caption">
-              <h2>Lipidomic Analytical Services</h2>
-              <p>Lipidomics is the study of lipids compounds in biological systems. Several recent studies have demonstrated that lipids are involved in health and disease, such are cardiovascular disease, obesity.</p>
+            <div class="carousel-item drk">
+              <img src="examining-sample-with-microscope.jpg"  class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block caption">
+                <h2>Pharma Analytical Services</h2>
+                <p>We provides a range of both GMP and non GMP analytical services to the pharmaceutical and nutraceutical industry. We deliver services ranging from a single test to full method development, validation, stability testing.</p>
+              </div>
+            </div>
+            <div class="carousel-item drk">
+              <img src="doctor-performing-medical-research-lab.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block caption">
+                <h2>Lipidomic Analytical Services</h2>
+                <p>Lipidomics is the study of lipids compounds in biological systems. Several recent studies have demonstrated that lipids are involved in health and disease, such are cardiovascular disease, obesity.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    
   <main id="main">
     <section id="why-us" class="why-us">
       <div class="container">
@@ -334,7 +336,7 @@
             </div>
         </div>
     </section>
-    <section class="contact-section pt-130 pb-100">
+    <section class="contact-section pt-130 pb-100" id = "contact">
         <div class="container">
             <div class="row">
                 <div class="col-xl-4">
